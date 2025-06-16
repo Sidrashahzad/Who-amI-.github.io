@@ -16,14 +16,15 @@
     .header-content {
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      align-items: stretch;
     }
 
     .name {
+      flex:1;
       font-size: 2.5vw;
       background-color:#9597A1;
       color: #000000;
-      padding-left:200px;
+      /*padding-left:200px;*/
       border: solid rgb(0, 0, 0);
       display: flex;
       justify-content: center;
@@ -31,16 +32,15 @@
       height: 600px; /* adjust as needed */
     }
     .intro {
+       flex:1;
       background-color: #ac79b7;
       font-size: 1.7vw;
-     /* padding-right: 400px;*/
       border: solid rgb(0, 0, 0);
       display: flex;
       justify-content: center;
       align-items: center;
       text-align: center;
       height: 600px;
-      padding: 0 20px;
     }
 
     footer {
